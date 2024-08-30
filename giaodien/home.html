@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="../img/logo_darkblue_notfull.svg" type="image/x-icon">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/6dab569175.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href=""><img src="../img/logo_darkblue_notfull.svg" alt=""></a>
+        </div>
+        <div class="search">
+            <form action="">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" placeholder="Từ khóa tìm kiếm">
+            </form>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="">trang chủ</a></li>
+                <li><a href="">giới thiệu</a></li>
+                <li class="box_sub_menu">
+                    <a href="">sản phẩm</a>
+                    <ul class="sub_menu">
+                        <a href=""><li>Đồ chơi</li></a>
+                        <a href=""><li>Chiếu sáng</li></a>
+                        <a href=""><li>Phụ kiện</li></a>
+                        <a href=""><li>Đồng hồ</li></a>
+                        <a href=""><li>Nội thất</li></a>
+                    </ul>
+                </li>
+                <li><a href="">thư viện</a></li>
+                <li><a href="">tin tức</a></li>
+                <li><a href="">liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="tool">
+            <ul>
+                <li >
+                    <a href="" class="icon_login" id="icon_login">
+                        <i class="fa-regular fa-user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="number">
+                        <i class="fa-regular fa-heart"></i>
+                        <span class="item_number">0</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="number">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="item_number">0</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- End header -->
+    <main>
+        <div class="banner w95">
+            <div class="banner_slideshow">
+                <img src="../img/banner.jpg" alt="">
+            </div>
+            <div class="banner_content">
+                <h3><span></span>Xu hướng 2024</h3>
+                <h1>thiết kế nội thất</h1>
+                <p>Xu hướng thiết kế nội thất Bắc Âu được giới trẻ ưu ái sử dụng
+                    trong những năm gần nhờ vào trào lưu sống xanh, bền vững và
+                    yêu môi trường với chi phí phù hợp
+                </p>
+                <h3><a href="">mua ngay</a></h3>
+            </div>
+        </div>
+        <div class="category w95">
+            <div class="bigcate">
+                <a href="">
+                    <div class="img_cate">
+                        <img src="../img/cate1.jpg" alt="">
+                    </div>
+                    <div class="cate_info">
+                        <h3>đồ chơi</h3>
+                        <p>1 Sản phẩm</p>
+                    </div>
+                </a>
+            </div>
+            <div class="smallcate">
+                <div class="cate_item">
+                    <a href="">
+                        <div class="img_cate">
+                            <img src="../img/cate2.jpg" alt="">
+                        </div>
+                        <div class="cate_info">
+                            <h3>chiếu sáng</h3>
+                            <p>4 Sản phẩm</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="cate_item">
+                    <a href="">
+                        <div class="img_cate">
+                            <img src="../img/cate3.jpg" alt="">
+                        </div>
+                        <div class="cate_info">
+                            <h3>phụ kiện</h3>
+                            <p>15 Sản phẩm</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="cate_item">
+                    <a href="">
+                        <div class="img_cate">
+                            <img src="../img/cate4.jpg" alt="">
+                        </div>
+                        <div class="cate_info">
+                            <h3>đồng hồ</h3>
+                            <p>3 Sản phẩm</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="cate_item">
+                    <a href="">
+                        <div class="img_cate">
+                            <img src="../img/cate5.jpg" alt="">
+                        </div>
+                        <div class="cate_info">
+                            <h3>nội thất</h3>
+                            <p>15 Sản phẩm</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- End cate_item -->
+            </div>
+        </div>
+        <!-- End category -->
+        <div class="hot_products w95">
+            <div class="title">sản phẩm bán chạy</div>
+            <div class="typeshow">
+                <ul>
+                    <li><a href="">Tất cả</a></li>
+                    <li><a href="">Nổi bật</a></li>
+                    <li><a href="">Bán chạy</a></li>
+                    <li><a href="">Giảm giá</a></li>
+                </ul>
+            </div>
+            <div class="list_pro">
+                <div class="pro_item">
+                    <div class="quick_act">
+                        <form action="">
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                        </form>
+                    </div>
+                    <div class="img_pro">
+                        <a href=""><img src="../img/product/binh-hoa-nho.jpg" alt=""></a>
+                    </div>
+                    <div class="content_pro">
+                        <div class="name_pro">
+                            <a href="">Bình hoa nhỏ</a>
+                        </div>
+                        <div class="price_pro">
+                            <p>Liên hệ <span></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <div class="quick_act">
+                        <form action="">
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                        </form>
+                    </div>
+                    <div class="img_pro">
+                        <a href=""><img src="../img/product/ghe-go.jpg" alt=""></a>
+                    </div>
+                    <div class="content_pro">
+                        <div class="name_pro">
+                            <a href="">Ghế gỗ</a>
+                        </div>
+                        <div class="price_pro">
+                            <p>Liên hệ<span></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <div class="quick_act">
+                        <form action="">
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                        </form>
+                    </div>
+                    <div class="img_pro">
+                        <a href=""><img src="../img/product/gau-bong.png" alt=""></a>
+                    </div>
+                    <div class="content_pro">
+                        <div class="name_pro">
+                            <a href="">Gấu bông</a>
+                        </div>
+                        <div class="price_pro">
+                            <p>250,000 <span>VND</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <div class="quick_act">
+                        <form action="">
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                        </form>
+                    </div>
+                    <div class="img_pro">
+                        <a href=""><img src="../img/product/dong-ho-go.png" alt=""></a>
+                    </div>
+                    <div class="content_pro">
+                        <div class="name_pro">
+                            <a href="">Đồng hồ gỗ</a>
+                        </div>
+                        <div class="price_pro">
+                            <p>30,000 <span>VND</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 row -->
+                <div class="pro_item">
+                    <div class="quick_act">
+                        <form action="">
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                        </form>
+                    </div>
+                    <div class="img_pro">
+                        <a href=""><img src="../img/product/dong-ho-tron-don-gian.jpg" alt=""></a>
+                    </div>
+                    <div class="content_pro">
+                        <div class="name_pro">
+                            <a href="">Đồng hồ tròn đơn giản</a>
+                        </div>
+                        <div class="price_pro">
+                            <p>30,000 <span>VND</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <div class="quick_act">
+                        <form action="">
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                        </form>
+                    </div>
+                    <div class="img_pro">
+                        <a href=""><img src="../img/product/dong-ho-treo-tuong-bang-go.jpg" alt=""></a>
+                    </div>
+                    <div class="content_pro">
+                        <div class="name_pro">
+                            <a href="">Đồng hồ treo tường bằng gỗ</a>
+                        </div>
+                        <div class="price_pro">
+                            <p>30,000 <span>VND</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <div class="quick_act">
+                        <form action="">
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                        </form>
+                    </div>
+                    <div class="img_pro">
+                        <a href=""><img src="../img/product/den-ngu.jpg" alt=""></a>
+                    </div>
+                    <div class="content_pro">
+                        <div class="name_pro">
+                            <a href="">Đèn ngủ</a>
+                        </div>
+                        <div class="price_pro">
+                            <p>30,000 <span>VND</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <div class="quick_act">
+                        <form action="">
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                        </form>
+                    </div>
+                    <div class="img_pro">
+                        <a href=""><img src="../img/product/den-san-vuon.jpg" alt=""></a>
+                    </div>
+                    <div class="content_pro">
+                        <div class="name_pro">
+                            <a href="">Đèn sân vườn</a>
+                        </div>
+                        <div class="price_pro">
+                            <p>30,000 <span>VND</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 1 row -->
+                <div class="pro_item">
+                    <div class="quick_act">
+                        <form action="">
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                        </form>
+                    </div>
+                    <div class="img_pro">
+                        <a href=""><img src="../img/product/den-neon.jpg" alt=""></a>
+                    </div>
+                    <div class="content_pro">
+                        <div class="name_pro">
+                            <a href="">Đèn neon</a>
+                        </div>
+                        <div class="price_pro">
+                            <p>30,000 <span>VND</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <div class="quick_act">
+                        <form action="">
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                        </form>
+                    </div>
+                    <div class="img_pro">
+                        <a href=""><img src="../img/product/binh-thuy-tinh.jpg" alt=""></a>
+                    </div>
+                    <div class="content_pro">
+                        <div class="name_pro">
+                            <a href="">Bình thủy tinh</a>
+                        </div>
+                        <div class="price_pro">
+                            <p>30,000 <span>VND</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <div class="quick_act">
+                        <form action="">
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                        </form>
+                    </div>
+                    <div class="img_pro">
+                        <a href=""><img src="../img/product/den-treo.jpg" alt=""></a>
+                    </div>
+                    <div class="content_pro">
+                        <div class="name_pro">
+                            <a href="">Đèn treo</a>
+                        </div>
+                        <div class="price_pro">
+                            <p>30,000 <span>VND</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro_item">
+                    <div class="quick_act">
+                        <form action="">
+                            <button><i class="fa-regular fa-heart"></i></button>
+                            <button><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button><i class="fa-regular fa-eye"></i></button>
+                        </form>
+                    </div>
+                    <div class="img_pro">
+                        <a href=""><img src="../img/product/binh-dung-nuoc.jpg" alt=""></a>
+                    </div>
+                    <div class="content_pro">
+                        <div class="name_pro">
+                            <a href="">Bình đựng nước</a>
+                        </div>
+                        <div class="price_pro">
+                            <p>30,000 <span>VND</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End pro_item -->
+            </div>
+            <a href=""><h4>xem tất cả sản phẩm</h4></a>
+        </div>
+        <div class="bigdeal">
+            <a href="">
+                <div class="title_deal">
+                    <h1>living room furniture</h1>
+                    <p>Discount 50%</p>
+                </div>
+                <div class="img_deal">
+                    <img src="../img/deal_banner.jpg" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="last_news">
+            <div class="title_news">
+                tin mới nhất
+            </div>
+            <div class="list_news">
+                <div class="news_item">
+                    <div class="img_news">
+                        <a href=""><img src="../img/news1.jpg" alt=""></a>
+                    </div>
+                    <div class="news_content">
+                        <div class="main_title">
+                            <a href="">
+                                Thi công nội thất căn hộ Midtown M7 Phú Mỹ Hưng 115m2
+                            </a>
+                        </div>
+                        <div class="date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            01 tháng 06, 2024
+                        </div>
+                        <div class="intro">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Amet sapien dignissim a elementum. Sociis metus, 
+                            hendrerit mauris id in. Quis sit sit ultrices 
+                            tincidunt euismod luctus diam. Turpis sodales orci etiam 
+                            phasellus lacus id leo. Amet turpis nunc, nulla massa est viverra 
+                            interdum
+                        </div>
+                    </div>
+                </div>
+                <div class="news_item">
+                    <div class="img_news">
+                        <a href=""><img src="../img/news2.jpg" alt=""></a>
+                    </div>
+                    <div class="news_content">
+                        <div class="main_title">
+                            <a href="">
+                                Thi công nội thất nhà phố D7 An Thiên Lý Thủ Đức
+                            </a>
+                        </div>
+                        <div class="date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            01 tháng 06, 2024
+                        </div>
+                        <div class="intro">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Amet sapien dignissim a elementum. Sociis metus, 
+                            hendrerit mauris id in. Quis sit sit ultrices 
+                            tincidunt euismod luctus diam. Turpis sodales orci etiam 
+                            phasellus lacus id leo. Amet turpis nunc, nulla massa est viverra 
+                            interdum
+                        </div>
+                    </div>
+                </div>
+                <div class="news_item">
+                    <div class="img_news">
+                        <a href=""><img src="../img/news3.jpg" alt=""></a>
+                    </div>
+                    <div class="news_content">
+                        <div class="main_title">
+                            <a href="">
+                                Thi công nội thất nhà phố KDC Bến Lức quận 8
+                            </a>
+                        </div>
+                        <div class="date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            01 tháng 06, 2024
+                        </div>
+                        <div class="intro">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Amet sapien dignissim a elementum. Sociis metus, 
+                            hendrerit mauris id in. Quis sit sit ultrices 
+                            tincidunt euismod luctus diam. Turpis sodales orci etiam 
+                            phasellus lacus id leo. Amet turpis nunc, nulla massa est viverra 
+                            interdum
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brand">
+            <img src="../img/brand1.png" alt="">
+            <img src="../img/brand2.png" alt="">
+            <img src="../img/brand3.png" alt="">
+            <img src="../img/brand4.png" alt="">
+            <img src="../img/brand6.png" alt="">
+            <img src="../img/brand7.png" alt="">
+            <img src="../img/brand1.png" alt="">
+        </div>
+        <div class="insta w95">
+            <div class="linked_insta">
+                <a href="">
+                    <button>
+                        <i class="fa-brands fa-instagram"></i>
+                        Instagram
+                    </button>
+                </a>
+            </div>
+            <div class="img_insta">
+                <img src="../img/ins1.jpg" alt="">
+                <img src="../img/ins2.jpg" alt="">
+                <img src="../img/ins3.jpg" alt="">
+                <img src="../img/ins4.jpg" alt="">
+                <img src="../img/ins5.jpg" alt="">
+                <img src="../img/ins6.jpg" alt="">
+                <img src="../img/ins7.jpg" alt="">
+                <img src="../img/ins8.jpg" alt="">
+            </div>
+        </div>
+        <div class="hot_privacy">
+            <div class="privacy_item">
+                <i class="fa-solid fa-truck-fast"></i>
+                <div class="name_privacy">
+                    <h6>giao hàng nhanh và miễn phí</h6>
+                    <p>Giao hàng miễn phí đơn hàng trên 1000k</p>
+                </div>
+            </div>
+            <div class="privacy_item">
+                <i class="fa-solid fa-headphones"></i>
+                <div class="name_privacy">
+                    <h6>hỗ trợ khách hàng 24/7</h6>
+                    <p>Hỗ trợ khách hàng thân thiện 24/7</p>
+                </div>
+            </div>
+            <div class="privacy_item">
+                <i class="fa-solid fa-circle-check"></i>
+                <div class="name_privacy">
+                    <h6>hoàn tiền nhanh chóng</h6>
+                    <p>Trả lại tiền trong vòng 30 ngày</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </main>
+    <footer>
+        <div class="mail_voucher">
+            <h3>đừng bỏ lỡ chương trình giảm giá của chúng tôi</h3>
+            <p>Đăng ký để nhận những sản phẩm và tin tức mới nhất cập nhật hàng ngày 
+                nhanh nhất.
+            </p>
+            <form action="" method="post">
+                <input type="email" placeholder="Email của bạn">
+                <button>ĐĂNG KÝ</button>
+            </form>
+        </div>
+        <div class="belowfoot w95">
+            <div class="company">
+                <a href=""><img src="../img/logo_darkblue_full.svg" alt=""></a>
+                <strong>MML - INTERIOR HOUSE STORE</strong>
+                <p>Địa chỉ: Tầng 4, Tòa nhà L (L401) - Số 02, đường Trịnh Văn Bô, 
+                    Nam Từ Liêm, Hà Nội (Tòa nhà FPT Polytechnic)
+                </p>
+                <p>Điện thoại: 1900 1234 - 0123456789</p>
+                <p>Email: mmlstore@gmail.com</p>
+                <div class="social_media">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="list_options">
+                <div class="options_item">
+                    <h4>LIÊN KẾT</h4>
+                    <a href="">Trang chủ</a>
+                    <a href="">Giới thiệu</a>
+                    <a href="">Sản phẩm</a>
+                    <a href="">Tin tức</a>
+                    <a href="">Thư viện</a>
+                    <a href="">Liên hệ</a>
+                </div>
+                <div class="options_item">
+                    <h4>CHÍNH SÁCH</h4>
+                    <a href="">Hướng dẫn mua hàng</a>
+                    <a href="">Hướng dẫn đổi trả hàng</a>
+                    <a href="">Hướng dẫn thanh toán</a>
+                    <a href="">Chính sách giao hàng</a>
+                    <a href="">Chính sách bảo mật</a>
+                    <a href="">Chính sách khuyến mại</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h6>Copyright © 2024 MML. All rights reserved.</h6>
+    </footer>
+    <!-- form đăng ký/ đăng nhập -->
+    <div id="login-form" class="login-form">
+        <div class="form-container">
+            <span class="close-btn">×</span>
+            <h2>Đăng Nhập</h2>
+            <div class="via_GF">
+                <button>
+                    <i class="fa-brands fa-google"></i>
+                    <span>Đăng nhập Google</span>
+                </button>
+                <button>
+                    <i class="fa-brands fa-facebook"></i>
+                    <span>Đăng nhập Facebook</span>
+                </button>
+            </div>
+            <hr>
+            <h6>Hoặc tài khoản</h6>
+            <form action="" method="" class="main-form">
+                <input type="text" id="username" name="username" placeholder="Tài khoản">
+                <input type="password" id="password" name="password" placeholder="Mật khẩu">
+                <p class="miss_pw"><a href="">Quên mật khẩu ?</a></p>
+                <button type="submit" class="login">Đăng Nhập</button>
+                <p class="signin"><a href="sign_in.html">Đăng kí ngay</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    
+    
+</body>
+
+</html>
